@@ -1,0 +1,113 @@
+[
+    {
+        "name": "Margherita",
+        "ingredients": ["tomato sauce", "mozzarella", "basil"],
+        "wanted": true
+    },
+    {
+        "name": "Capricciosa",
+        "ingredients": ["tomato sauce", "mozarella", "italian ham", "mushrooms", "black olives", "capers"],
+        "wanted": true
+    },
+    {
+        "name": "Romana",
+        "ingredients": ["tomato sauce", "anchovies", "capers"],
+        "wanted": true
+    },
+    {
+        "name": "Fiorentina",
+        "ingredients": ["tomato sauce", "mozarella", "ricotta", "spinach", "cherry tomatoes", "shaved parmesan"],
+        "wanted": true
+    },
+    {
+        "name": "Diavola",
+        "ingredients": ["tomato sauce", "mozzarella", "spicy salami"],
+        "wanted": true
+    },
+    {
+        "name": "Prosciutto e Funghi",
+        "ingredients": ["tomato sauce", "mozarella", "mushrooms", "ham"],
+        "wanted": true
+    },
+    {
+        "name": "Genovese",
+        "ingredients": ["tomato sauce", "fresh mozzarella", "chicken", "pesto", "black olives", "pine nuts"],
+        "wanted": true
+    },
+    {
+        "name": "Hawaiana",
+        "ingredients": ["tomato sauce", "mozarella", "pineapple", "italian ham"],
+        "wanted": true
+    },
+    {
+        "name": "Funghi e Salsiccia",
+        "ingredients": ["tomato sauce", "mozzarella", "wild forest mushrooms", "mild italian sausage"],
+        "wanted": true
+    },
+    {
+        "name": "Puttanesca",
+        "ingredients": ["tomato sauce", "mozarella", "garlic", "black olives", "anchovies"],
+        "wanted": true
+    },
+    {
+        "name": "Vegetariana",
+        "ingredients": ["tomato sauce", "mozarella", "eggplant", "zucchini", "mushrooms", "onions", "cherry tomatoes"],
+        "wanted": true
+    },
+    {
+        "name": "Bandiera",
+        "ingredients": ["tomato sauce", "mozarella", "arugula", "shaved parmesan"],
+        "wanted": true
+    },
+    {
+        "name": "Rucola e Prosciutto Crudo",
+        "ingredients": ["tomato sauce", "mozzarella", "arugula", "prosciutto"],
+        "wanted": true
+    },
+    {
+        "name": "Caprese",
+        "ingredients": ["tomato sauce", "fresh mozarella", "sliced tomatoes", "parmesan", "basil"],
+        "wanted": true
+    },
+    {
+        "name": "Campagna",
+        "ingredients": ["tomato sauce", "mozzarella", "goat cheese", "artichokes", "garlic", "sun dried tomatoes"],
+        "wanted": true
+    },
+    {
+        "name": "Rustica",
+        "ingredients": ["tomato sauce", "mozarella", "tomatoes", "garlic", "mushrooms", "black olives", "basil" ],
+        "wanted": true
+    },
+    {
+        "name": "Colorata",
+        "ingredients": ["tomato sauce", "mozarella", "chicken", "spinach", "goat cheese", "sun dried tomatoes"],
+        "wanted": true
+    },
+    {
+        "name": "Ciociara",
+        "ingredients": ["tomato sauce", "mozarella", "goat cheese", "roasted peppers", "black olives", "basil"],
+        "wanted": true
+    },
+    {
+        "name": "Parma, Brie e Carciofi",
+        "ingredients": ["tomato sauce", "mozzarella", "brie cheese", "artichokes", "prosciutto"],
+        "wanted": true
+    },
+    {
+        "name": "Pizza Della Nonna",
+        "ingredients": ["tomato sauce", "mozarella", "spinach", "artichokes", "mushrooms", "sun dried tomatoes", "basil"],
+        "wanted": true
+    },
+    {
+        "name": "Quattro Formaggi",
+        "ingredients": ["parmesan", "mozzarella", "gorgonzola cheese", "brie cheese"],
+        "wanted": true
+    },
+    {
+        "name": "Pizza Spritz",
+        "ingredients": ["tomato sauce", "mozarella", "mushrooms", "spicy salami" ],
+        "wanted": true
+    }
+    
+]

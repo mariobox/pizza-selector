@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="minimal.css">
+    <style>        
+        /* Create three equal columns that floats next to each other */
+        .column {
+        float: left;
+        width: 33%;
+        padding: 10px;
+        }
+
+        /* Clear floats after the columns */
+        .row:after {
+        content: "";
+        display: table;
+        clear: both;
+        }
+    </style>
+    <link href="https://fonts.googleapis.com/css2?family=Itim&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="container">
+        <h1>Find Your Pizza</h1>
+        <p>Check on the ingredients that you don't want:</p>
+        <div id='ingredients'>
+            <div class='row'>
+                <div class="column">
+                    <div>
+                        <input type="checkbox" id="tomato sauce" name="tomato sauce">
+                        <label for="tomato sauce">Tomato Sauce</label>
+                    </div>
+                    <div>
+                        <input type="checkbox" id="mozarella" name="mozarella">
+                        <label for="mozarella">Mozarella</label>
+                    </div>
+                    <div>
+                        <input type="checkbox" id="basil" name="basil">
+                        <label for="basil">Basil</label>
+                    </div>
+                    <div>
+                        <input type="checkbox" id="italian ham" name="italian ham">
+                        <label for="italian ham">Italian Ham</label>
+                    </div>
+                    <div>
+                        <input type="checkbox" id="mushrooms" name="mushrooms">
+                        <label for="mushrooms">Mushrooms</label>
+                    </div>
+                    <div>
+                        <input type="checkbox" id="black olives" name="black olives">
+                        <label for="black olives">Black Olives</label>
+                    </div>
+                    <div>
+                        <input type="checkbox" id="artichokes" name="artichokes">
+                        <label for="artichokes">Artichokes</label>
+                    </div>
+                    <div>
+                        <input type="checkbox" id="anchovies" name="anchovies">
+                        <label for="anchovies">Anchovies</label>
+                    </div>
+                
+                    <div>
+                        <input type="checkbox" id="capers" name="capers">
+                        <label for="capers">Capers</label>
+                    </div>
+                    <div>
+                        <input type="checkbox" id="ricotta" name="ricotta">
+                        <label for="ricotta">Ricotta</label>
+                    </div>
+                    <div>
+                        <input type="checkbox" id="spinach" name="spinach">
+                        <label for="spinach">Spinach</label>
+                    </div>
+                    <div>
+                        <input type="checkbox" id="cherry tomatoes" name="cherry tomatoes">
+                        <label for="cherry tomatoes">Cherry Tomatoes</label>
+                    </div>
+                </div>
+                <div class='column'>
+                    <div>
+                        <input type="checkbox" id="shaved parmesan" name="shaved parmesan">
+                        <label for="shaved parmesan">Shaved Parmesan</label>
+                    </div>            
+                    <div>
+                        <input type="checkbox" id="spicy salami" name="spicy salami">
+                        <label for="spicy salami">Spicy Salami</label>
+                    </div>
+                    <div>
+                        <input type="checkbox" id="ham" name="ham">
+                        <label for="ham">Ham</label>
+                    </div>
+                    <div>
+                        <input type="checkbox" id="chicken" name="chicken">
+                        <label for="chicken">Chicken</label>
+                    </div>
+                    <div>
+                        <input type="checkbox" id="pesto" name="pesto">
+                        <label for="pesto">Pesto</label>
+                    </div>
+                    <div>
+                        <input type="checkbox" id="pine nuts" name="pine nuts">
+                        <label for="pine nuts">Pine Nuts</label>
+                    </div>
+                    <div>
+                        <input type="checkbox" id="pineapple" name="pineapple">
+                        <label for="pineapple">Pineapple</label>
+                    </div>
+                    <div>
+                        <input type="checkbox" id="wild forest mushrooms" name="wild forest mushrooms">
+                        <label for="wild forest mushrooms">Wild Forest Mushrooms</label>
+                    </div>
+                    <div>
+                        <input type="checkbox" id="mild italian sausage" name="mild italian sausage">
+                        <label for="mild italian sausage">Mild Italian Sausage</label>
+                    </div>
+                    <div>
+                        <input type="checkbox" id="garlic" name="garlic">
+                        <label for="garlic">Garlic</label>
+                    </div>
+                    <div>
+                        <input type="checkbox" id="eggplant" name="eggplant">
+                        <label for="eggplant">Eggplant</label>
+                    </div>
+                    <div>
+                        <input type="checkbox" id="zucchini" name="zucchini">
+                        <label for="zucchini">Zucchini</label>
+                    </div>
+                </div>
+                <div class='column'>
+                    <div>
+                        <input type="checkbox" id="onions" name="onions">
+                        <label for="onions">Onions</label>
+                    </div>
+                    <div>
+                        <input type="checkbox" id="arugula" name="arugula">
+                        <label for="arugula">Arugula</label>
+                    </div>
+                    <div>
+                        <input type="checkbox" id="fresh mozarella" name="fresh mozarella">
+                        <label for="fresh mozarella">Fresh Mozarella</label>
+                    </div>
+                    <div>
+                        <input type="checkbox" id="prosciutto" name="prosciutto">
+                        <label for="prosciutto">Prosciutto</label>
+                    </div>
+                    <div>
+                        <input type="checkbox" id="sliced tomatoes" name="sliced tomatoes">
+                        <label for="sliced tomatoes">Sliced Tomatoes</label>
+                    </div>
+                    <div>
+                        <input type="checkbox" id="parmesan" name="parmesan">
+                        <label for="parmesan">Parmesan</label>
+                    </div>
+                    <div>
+                        <input type="checkbox" id="goat cheese" name="goat cheese">
+                        <label for="goat cheese">Goat Cheese</label>
+                    </div>
+                    <div>
+                        <input type="checkbox" id="sun dried tomatoes" name="sun dried tomatoes">
+                        <label for="sun dried tomatoes">Sun Dried Tomatoes</label>
+                    </div>
+                    <div>
+                        <input type="checkbox" id="tomatoes" name="tomatoes">
+                        <label for="tomatoes">Tomatoes</label>
+                    </div>
+                    <div>
+                        <input type="checkbox" id="brie cheese" name="brie cheese">
+                        <label for="brie cheese">Brie Cheese</label>
+                    </div>
+                    <div>
+                        <input type="checkbox" id="roasted peppers" name="roasted peppers">
+                        <label for="roasted peppers">Roasted Peppers</label>
+                    </div>
+                    <div>
+                        <input type="checkbox" id="gorgonzola cheese" name="gorgonzola cheese">
+                        <label for="gorgonzola cheese">Gorgonzola Cheese</label>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <br />
+        <center>
+            <input type='button' value="Submit" onclick='printMyPizzas()'>
+        </center>
+        
+
+        <p id='list'></p>
+    </div>
+      
+</body>
+<script src="script.js"></script>
+</html>
